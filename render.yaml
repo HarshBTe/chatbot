@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chat-api
+    runtime: python
+    buildCommand: ""
+    startCommand: "python chatapi.py"
+    envVars:
+      - key: PORT
+        value: 10000
