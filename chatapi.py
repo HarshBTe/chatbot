@@ -9,7 +9,7 @@ CORS(app)
 
 api_key = os.getenv("GEMINI_API_KEY")
 
-myKey = "AIzaSyADf20vfZhtKPPjtexy4gpK3CqbSfpcuVM"
+
 ai.configure(api_key=api_key)
 model = ai.GenerativeModel("gemini-1.5-pro")
 
